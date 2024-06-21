@@ -1,0 +1,91 @@
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none
+}
+
+.booking .book-form{
+    margin-top: 20px;
+    margin-bottom: -38px;
+    padding: 2rem;
+    background-color: rgba(255,255,255,0.13);
+}
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.booking .book-form .flex .inputBox{
+    flex: 1 1 41rem;
+}
+.booking .book-form .flex .inputBox input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.booking .book-form .flex span{
+    font-size: large;
+    font-weight: 500;
+}
+.booking .book-form .flex .inputBox input:focus::placeholder{
+    color: white;
+    font-weight: 100;
+}
+.bookbtn{
+    color: white;
+    display: inline-block;
+    background-color: #fc0050;
+    font-size: 20px;
+    font-weight: 600px;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    width: 150px;
+    cursor: pointer;
+    transition: ease 0.30s;
+    margin: 35px 0px 5px 680px;
+    padding: 10px;
+}
+
+.bookbtn:hover{
+    border: 2px solid #fc0050;
+    background-color: transparent;
+    transform: scale(1.1);
+  }
+
+  form h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 42px;
+    text-align: center;
+    margin: 11px 0px 34px -64px;
+    text-decoration: underline solid red;
+}
+
+#Destination{
+
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;;
+}
+
+.opt {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.64);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
